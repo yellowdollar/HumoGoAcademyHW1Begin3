@@ -10,5 +10,7 @@ func main() {
 	fmt.Println("Input b: ")
 	fmt.Scan(&b)
 
-	fmt.Println(2 * (a + b))
+	fmt.Println("P =", 2 * (a + b))
+
+	fmt.Println("S =", a * b)
 }
